@@ -1,0 +1,14 @@
+[
+  {
+    "numero_siniestro": "SIN-2026-045",
+    "taller": "Taller Central",
+    "vehiculo": "Toyota Corolla 2020",
+    "items_autorizados": ["Parachoques delantero", "Pintura y laca"]
+  },
+  {
+    "numero_siniestro": "SIN-2026-046",
+    "taller": "Taller Norte",
+    "vehiculo": "Honda Civic 2019",
+    "items_autorizados": ["Cambio de aceite", "Filtro de aire"]
+  }
+]

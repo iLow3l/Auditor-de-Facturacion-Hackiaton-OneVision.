@@ -1,0 +1,6 @@
+[
+  { "item": "Parachoques delantero", "precio_acordado": 180, "categoria": "Carroceria" },
+  { "item": "Pintura y laca", "precio_acordado": 90, "categoria": "Pintura" },
+  { "item": "Cambio de aceite", "precio_acordado": 35, "categoria": "Mecanica" },
+  { "item": "Filtro de aire", "precio_acordado": 20, "categoria": "Mecanica" }
+]
