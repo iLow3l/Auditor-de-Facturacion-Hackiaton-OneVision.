@@ -3,12 +3,30 @@
     "numero_siniestro": "SIN-2026-045",
     "taller": "Taller Central",
     "vehiculo": "Toyota Corolla 2020",
-    "items_autorizados": ["Parachoques delantero", "Pintura y laca"]
+    "items_autorizados": ["Parachoques delantero", "Pintura y laca", "Mano de obra pintura"]
   },
   {
     "numero_siniestro": "SIN-2026-046",
     "taller": "Taller Norte",
     "vehiculo": "Honda Civic 2019",
-    "items_autorizados": ["Cambio de aceite", "Filtro de aire"]
+    "items_autorizados": ["Cambio de aceite", "Filtro de aire", "Filtro de aceite"]
+  },
+  {
+    "numero_siniestro": "SIN-2026-047",
+    "taller": "Taller Este",
+    "vehiculo": "Hyundai Tucson 2021",
+    "items_autorizados": ["Parachoques delantero", "Faro delantero", "Pintura y laca", "Mano de obra pintura"]
+  },
+  {
+    "numero_siniestro": "SIN-2026-048",
+    "taller": "Taller Sur",
+    "vehiculo": "Nissan Sentra 2018",
+    "items_autorizados": ["Pastillas de freno", "Disco de freno", "Mano de obra mecanica"]
+  },
+  {
+    "numero_siniestro": "SIN-2026-049",
+    "taller": "Taller Central",
+    "vehiculo": "Kia Rio 2022",
+    "items_autorizados": ["Bateria 12V", "Alternador", "Diagnostico computarizado"]
   }
 ]
