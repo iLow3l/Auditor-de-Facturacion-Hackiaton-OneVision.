@@ -197,7 +197,7 @@ TOOLS = [
 ]
 
 
-def ejecutar_agente(mensaje_usuario: str, api_key: str, modelo: str = "llama-3.3-70b-versatile") -> dict:
+def ejecutar_agente(mensaje_usuario: str, api_key: str, modelo: str = "openai/gpt-oss-120b") -> dict:
     """Nunca lanza excepcion hacia afuera: cualquier fallo (red, parseo,
     argumentos invalidos del modelo) devuelve un resultado seguro en vez de
     romper la interfaz."""
