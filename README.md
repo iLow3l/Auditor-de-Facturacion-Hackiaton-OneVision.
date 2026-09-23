@@ -5,7 +5,7 @@ enviada por un taller, y la audita automáticamente contra el tarifario acordado
 autorizados de ese siniestro — detectando precios fuera de tolerancia, ítems no reconocidos o no
 autorizados, cobros duplicados, cantidades sospechosas y totales de factura que no cuadran.
 
-🔗 **App en vivo:** _(pega aquí tu URL de Streamlit Cloud una vez desplegada)_
+🔗 **App en vivo: https://auditor-de-facturacion-hackiaton-onevision-cvrsvgatvywgzq33a24.streamlit.app/
 
 ---
 
