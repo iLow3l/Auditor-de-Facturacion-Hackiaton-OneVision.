@@ -18,7 +18,12 @@ if "historial_auditorias" not in st.session_state:
 
 api_key = st.secrets.get("GROQ_API_KEY", "") if hasattr(st, "secrets") else ""
 if not api_key:
-    api_key = st.text_input("API key de Groq", type="password", help="Gratis en console.groq.com")
+    st.error(
+        "Esta app no tiene configurada la API key de Groq. "
+        "El propietario debe agregarla en Settings → Secrets de Streamlit Cloud "
+        "como GROQ_API_KEY = \"...\"."
+    )
+    st.stop()
 
 mensaje = st.text_area(
     "Mensaje",
@@ -38,9 +43,7 @@ with col2:
         st.rerun()
 
 if auditar:
-    if not api_key:
-        st.error("Falta la API key de Groq.")
-    elif not mensaje.strip():
+    if not mensaje.strip():
         st.error("Escribe el detalle de la factura.")
     else:
         with st.spinner("Analizando factura..."):
